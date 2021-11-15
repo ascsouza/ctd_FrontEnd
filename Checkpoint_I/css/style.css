@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp%27');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    font-family:'Dancing Script', cursive;
+    font-size: 20px;
+    padding: 10px;
+    background-color: burlywood;
+       
+    
+
+}
+
+p {
+
+    text-align: center;
+    font-family:'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+
+}
+
+
+
+
+body {
+
+    background-image: url('https://wallpapercave.com/wp/wp4201763.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+      
+        
+
+}
+
+iframe {
+
+    
+    height: 720px;
+    width: 1280px;
+    margin-left: 20px;
+    margin-top: 50px;
+   
+  
+}
+
+h2, ul, h2 {
+
+    text-align: center;
+    padding-bottom: 20px;
+    font-family:'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+
+
+}
+
+a {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.icones {
+
+    margin: 20px;
+    width: 70px;
+    height: 70px;
+    margin-left: 650px;
+    
+}
