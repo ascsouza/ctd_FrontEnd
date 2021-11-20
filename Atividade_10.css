@@ -1,0 +1,83 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-color: #f5f391;
+    background-image: url(https://s2.glbimg.com/KcdKbjASvyoDtz0NlUj00E9oMUM=/512x320/smart/e.glbimg.com/og/ed/f/original/2020/03/28/mercado-livre.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+    
+    
+}
+
+h1 {
+    text-align: center;
+       
+}
+
+/*div {
+
+    padding-top: 200px;
+    padding-left: 50px;
+}*/
+
+.username {
+
+    padding-top: 200px;
+    padding-right: 70px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+.userEmail {
+
+    padding-right: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.Password {
+
+    padding-right: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.Depoimento {
+
+    padding-right: 60px;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.options {
+
+    padding-right: 110px;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+button {
+
+    border-radius: 100px;
+    margin: 10px auto;
+    display: block;
+   
+    
+
+}
+
+
+
+
