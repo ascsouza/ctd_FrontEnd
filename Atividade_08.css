@@ -1,0 +1,73 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.square {
+
+    width: 200px;
+    height: 200px;
+    margin-bottom: 12px;
+    padding: 10px;
+
+}
+
+.primeiro-square {
+
+    background-color: aqua;
+    position: relative;
+    left: 1147px;
+    
+}
+
+.segundo-square {
+
+    background-color:blue;
+    position: relative;
+    bottom: 220px;
+}
+
+.terceiro-square {
+    background-color: red;
+    position: relative;
+    left: 580px;
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+}
+
+
+.quarto-squares {
+    background-color: blueviolet;
+    position: relative;
+    margin-bottom: 12px;
+    bottom: 620px;
+    left: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.quinto-squares {
+    background-color: brown;
+    position: relative;
+    margin-bottom: 12px;
+    left: 1175px;
+    bottom: 780px;
+    width: 150px;
+    height: 150px;
+}
+
+.sexto-squares {
+    background-color: chocolate;
+    position: relative;
+    left: 600px;
+    bottom: 505px;
+    margin-bottom: 12px;
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}

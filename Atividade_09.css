@@ -1,0 +1,57 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-color: bisque;
+}
+
+header {
+    background-color: #685454;
+    display: block;
+    padding-left: 50px;  
+       
+    
+}
+
+.caixa_1 {
+
+       
+   height: 300px;
+   width: 1365px;
+ 
+}
+
+ a {
+
+    display: block;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+
+
+p {
+    padding-left: 70px;
+    
+}
+
+.caixa_3 {
+
+    padding: 20px;
+}
+
+.caixa_4 {
+
+    display: block;
+    position: fixed;
+    left: 1000px;
+}
+
+
+

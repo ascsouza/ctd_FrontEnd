@@ -1,0 +1,53 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+ body {
+    background-color: cadetblue;
+}
+
+div {
+
+    padding: 10px;
+}
+
+article {
+
+    background-image: url('http://www.osmais.com/wallpapers/201206/cubos-pretos-azuis-wallpaper-1280x720.jpg');
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 1280px;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+
+    
+          
+    
+}
+
+h1, h2, p {
+    
+    color: red;
+    padding-top: 25px;
+    padding-bottom: 80px;
+    text-align: center;
+    
+    
+}
+
+button {
+
+    background-color: red;
+    border-radius: 20px;
+    
+    
+    
+    
+
+}
