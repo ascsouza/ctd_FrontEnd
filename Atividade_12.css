@@ -1,0 +1,147 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+    background-color: #eeede2;
+}
+
+.lista1 {
+
+    padding: 10px;
+
+    
+}
+
+.lista1 ul {
+
+    list-style: none;
+
+}
+
+.lista1 ul li {
+    
+    padding: 10px;
+    margin: 0 auto;
+    margin:50px;
+    background-color: aqua;
+    border-radius: 100px;
+    
+}
+
+.lista1 ul li:nth-child(3) {
+
+    background-color: red;
+
+}
+
+fieldset {
+
+padding-left: 30px;
+
+
+}
+
+legend {
+    
+    text-align: center;
+    color: black;
+    background-color: aliceblue;
+}
+
+.customização {
+
+        width: 800px;
+        border: solid;
+        background-color: #b16060;
+        padding: 6px 12px;
+        border-radius: 12px;
+        transition: .5s;
+        color:blue;
+    
+
+}
+
+.customização:hover {
+
+    width: 100px;
+    background-color: #e01a1a;
+
+}
+
+.customizaçao-checkbox{
+
+    width: 15px;
+    height: 15px;
+    transition: .5s;
+
+}
+
+.customizaçao-checkbox:checked {
+
+    width: 10px;
+    height: 35px;
+
+}
+
+.customização1
+ {
+
+    width: 100px;
+    height: 35px;
+    background-color: #f61414;
+
+}
+
+
+.customização1:disabled
+ {
+
+    width: 100px;
+    height: 35px;
+    background-color: #553030;
+
+}
+
+.customizaçao-button {
+
+    color: white;
+    border: solid;
+    padding: 20px 34px;
+    background-color: #bb703e;
+    border-radius: 30px;
+    transition: .3s;
+
+}
+
+.customizaçao-button:hover {
+
+    background-color: #c02424;
+    border-radius: 32px;
+
+}
+
+.destacando-text {
+
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+.destacando-text::first-letter {
+
+    color: #f12e0b;
+    font-size: large;
+    width: 20px;
+
+}
+
+
+
+
