@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+
+    <header>
+        
+        <h1>Formulário de Cadastro</h1>
+
+    </header>
+
+    <main>
+
+        <form>
+
+            <fieldset>
+
+                <legend><b><h2>Informe seus Dados:</h2>  </b></legend>
+
+                <div>
+
+                    <legend class="legend_2"></legend>
+
+                    <label for="username">Nome Completo:</label>
+                    <input type="text" maxlength="100" name="username" id="username">
+
+                </div>
+
+                <div>
+                    <label for="userEmail">E-mail:</label>
+                    <input type="email" name="userEmail" id="userEmail">
+
+                </div>
+
+                <div>
+                    <label for="number">Telefone:</label>
+                    <input type="text" placeholder="9999-9999" id = "number" />    
+                </div>
+
+                <div>
+                    <label for="birthDate">Data de Nascimento</label>
+                    <input type="date" name="birthDate" id="birthDate">
+                </div>
+
+                <div>
+
+                    <legend> <b>Menor de 18 anos de Idade:</b></legend>
+
+                    <input type="radio" name="idade" id="">
+                    <label for="">SIM</label>
+
+                    <input type="radio" name="idade" id="">
+                    <label for="">NÃO</label>
+
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend><b><h2>Informações da Viagem:</h2>  </b></legend>
+
+                    <div>
+
+                        <label for="list">Locais de interesse</label>
+                        <select name="list" id="list">
+
+                            <option>Selecione</option>
+                            <option value=""> Pampulha</option>
+                            <option value=""> Mercado Central</option>
+                            <option value=""> Praça da Liberdade</option>
+                            <option value=""> Palacio das Artes</option>
+                            <option value=""> Mineirão</option>
+
+                        </select>
+
+                        <div>
+
+                            <legend> <b>Interesse da Viagem:</b></legend>
+        
+                            <input type="radio" name="Turista" value="1" id="Turista">
+                            <label for="">Turista</label>
+        
+                            <input type="radio" name="Residente" value="2" id="Residente">
+                            <label for="">Residente</label>
+
+                            <input type="radio" name="Estudante" value="3" id="Estudante">
+                            <label for="">Estudante</label>
+
+                            <input type="radio" name="Trabalho" value="4" id="Trabalho">
+                            <label for="">Trabalho</label>
+        
+                        </div>
+
+
+                    </div>
+
+
+            </fieldset>
+
+            <div>
+
+                <button type="Submit">Cadastrar</button>
+                <button type="reset">Limpar</button>
+
+
+            </div>
+
+
+
+        </form>
+
+
+
+
+    </main>
+
+    
+    
+</body>
+</html>
